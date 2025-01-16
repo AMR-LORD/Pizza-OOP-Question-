@@ -45,6 +45,7 @@ double CalcPizzaPrice(pizzaSize size, int TypePrice)
         break;
     case EXTRA:
         TypePrice *= 3;
+        break;
     default:
         break;
     }
