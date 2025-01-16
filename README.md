@@ -32,7 +32,7 @@ void Bake()
     cout << "Baking Pizza" << endl;
 }
 
-double CalcPizzaPrice(pizzaSize size, int defaultPrice)
+double CalcPizzaPrice(pizzaSize size, int TypePrice)
 {
     double pizzaPrice = 50;
     switch (size)
