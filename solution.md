@@ -16,7 +16,6 @@ protected:
 
 private:
     const double pizzaPrice = 50;
-    pizzaSize size;
 
     void MakeDough()
     {
